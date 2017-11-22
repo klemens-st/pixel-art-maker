@@ -1,8 +1,9 @@
 // Select color input
 const colorPicker = $('#colorPicker');
+// Select the grid
+const pixelCanvas = $('#pixel_canvas');
 // Select size input
-const TABLE = $('#pixel_canvas');
-const FORM = $('#sizePicker');
+const sizePicker = $('#sizePicker');
 
 let color;
 
