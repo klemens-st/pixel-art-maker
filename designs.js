@@ -9,10 +9,11 @@ let color;
 
 // When size is submitted by the user, call makeGrid()
 function makeGrid(event) {
-    const height = $('#input_height').val();
-    const width = $('#input_width').val();
     // Prevent default sizePicker submission behaviour
     event.preventDefault();
+    
+    const height = $('#input_height').val();
+    const width = $('#input_width').val();
     // Empty the canvas before re-building
     pixelCanvas.empty();
     // Build the grid
